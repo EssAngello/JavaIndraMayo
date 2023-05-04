@@ -25,7 +25,7 @@ public class Program {
 		//numero = medio; No compila, Asignacion invalida (Type Missmatch)
 		medio = numero; //conversion implicita
 		
-		String enLetras = String.valueOf(numero); //tambien vale Integer.toString(numero)
+		String enLetras = Integer.toString(numero); //tambien vale Integer.toString(numero)
 		System.out.println("El numero en letras es: " + enLetras);
 		System.out.printf("El numero en letras es: %s" , enLetras);
 		System.out.println();
@@ -33,34 +33,6 @@ public class Program {
 		enLetras = "22";
 		numero = Integer.parseInt(enLetras);
 		System.out.println(numero);
-		
-		//captura de excepciones
-		try {
-			enLetras = "22dos";
-			numero = Integer.parseInt(enLetras);
-		} catch (Exception e) {
-			// TODO: handle exception
-			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
-		}
-		
-		try {
-			enLetras = "22dos";
-			numero = Integer.parseInt(enLetras);
-		} catch (NumberFormatException e) {
-			// TODO: handle exception
-			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
-		} catch (Exception ex) {
-			System.out.println("ocurrio un error inesperado");
-		}
-		
-		
-		//conversion un String a una variable flotante
-		
-		enLetras = "22.2";
-		double doubleLetras = Double.valueOf(enLetras);
-		System.out.println(doubleLetras);
-				
-		
 	}
 	
 	

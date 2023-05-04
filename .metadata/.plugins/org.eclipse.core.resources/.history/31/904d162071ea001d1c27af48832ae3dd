@@ -40,7 +40,7 @@ public class Program {
 			numero = Integer.parseInt(enLetras);
 		} catch (Exception e) {
 			// TODO: handle exception
-			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
+			System.out.println("No se pudo hacer la conversion " + enLetras + " en letras");
 		}
 		
 		try {
@@ -48,18 +48,8 @@ public class Program {
 			numero = Integer.parseInt(enLetras);
 		} catch (NumberFormatException e) {
 			// TODO: handle exception
-			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
-		} catch (Exception ex) {
-			System.out.println("ocurrio un error inesperado");
+			System.out.println("No se pudo hacer la conversion " + enLetras + " en letras");
 		}
-		
-		
-		//conversion un String a una variable flotante
-		
-		enLetras = "22.2";
-		double doubleLetras = Double.valueOf(enLetras);
-		System.out.println(doubleLetras);
-				
 		
 	}
 	

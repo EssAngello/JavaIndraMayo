@@ -1,0 +1,39 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+		
+		int numero = 20;
+		System.out.println(numero);
+		
+		double medio = 0.5;
+		System.out.println(medio);
+		
+		boolean verdadero = true;
+		System.out.println(verdadero);
+		
+		String nombre = "Esteban"; //comentario
+		System.out.println(nombre);
+		
+		@SuppressWarnings("removal")
+		Integer num = new Integer(2);
+		System.out.println(num);
+		
+		
+		//conversion de tipos
+		//numero = medio; No compila, Asignacion invalida (Type Missmatch)
+		medio = numero; //conversion implicita
+		
+		String enLetras = Integer.toString(numero); //tambien vale Integer.toString(numero)
+		System.out.println("El numero en letras es: " + enLetras);
+		System.out.printf("El numero en letras es: %s" , enLetras);
+		
+		enLetras = "22";
+		numero = Integer.parseInt(enLetras);
+		System.out.println(numero);
+	}
+	
+	
+
+}

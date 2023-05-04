@@ -49,17 +49,7 @@ public class Program {
 		} catch (NumberFormatException e) {
 			// TODO: handle exception
 			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
-		} catch (Exception ex) {
-			System.out.println("ocurrio un error inesperado");
 		}
-		
-		
-		//conversion un String a una variable flotante
-		
-		enLetras = "22.2";
-		double doubleLetras = Double.valueOf(enLetras);
-		System.out.println(doubleLetras);
-				
 		
 	}
 	

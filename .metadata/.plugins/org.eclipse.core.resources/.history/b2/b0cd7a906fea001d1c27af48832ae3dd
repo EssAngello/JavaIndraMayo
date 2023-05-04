@@ -28,39 +28,10 @@ public class Program {
 		String enLetras = String.valueOf(numero); //tambien vale Integer.toString(numero)
 		System.out.println("El numero en letras es: " + enLetras);
 		System.out.printf("El numero en letras es: %s" , enLetras);
-		System.out.println();
 		
 		enLetras = "22";
 		numero = Integer.parseInt(enLetras);
-		System.out.println(numero);
-		
-		//captura de excepciones
-		try {
-			enLetras = "22dos";
-			numero = Integer.parseInt(enLetras);
-		} catch (Exception e) {
-			// TODO: handle exception
-			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
-		}
-		
-		try {
-			enLetras = "22dos";
-			numero = Integer.parseInt(enLetras);
-		} catch (NumberFormatException e) {
-			// TODO: handle exception
-			System.out.println("No se pudo hacer la conversion " + enLetras + " a int");
-		} catch (Exception ex) {
-			System.out.println("ocurrio un error inesperado");
-		}
-		
-		
-		//conversion un String a una variable flotante
-		
-		enLetras = "22.2";
-		double doubleLetras = Double.valueOf(enLetras);
-		System.out.println(doubleLetras);
-				
-		
+		System.out.println(enLetras);
 	}
 	
 	

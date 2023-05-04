@@ -58,7 +58,7 @@ public class Program {
 		
 		enLetras = "22.2";
 		double doubleLetras = Double.valueOf(enLetras);
-		System.out.println(doubleLetras);
+		System.out.println("doubleLetras");
 				
 		
 	}
