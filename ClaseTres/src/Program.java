@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 import indra.utils.Consola;
 
@@ -77,9 +76,10 @@ public class Program {
     	
     	//Consola.adivinarElNumero();
     	//Consola.adivinarElNumeroSolucionFormador();
-    	
-    	System.out.println(Consola.esPrimo(11));
 
+        //comentario de prueba para hacer commit y push
+
+    	System.out.println(Consola.esPrimo(11));
     }
 
 }
