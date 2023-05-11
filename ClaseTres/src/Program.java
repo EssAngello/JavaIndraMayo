@@ -75,11 +75,11 @@ public class Program {
     	System.out.println(num);*/
     	
     	//Consola.adivinarElNumero();
-    	//Consola.adivinarElNumeroSolucionFormador();
+    	Consola.adivinarElNumeroSolucionFormador();
 
         //comentario de prueba para hacer commit y push
 
-    	System.out.println(Consola.esPrimo(11));
+    	//System.out.println(Consola.esPrimo(11));
     }
 
 }

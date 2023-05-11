@@ -96,7 +96,7 @@ public class Consola {
     	}
     	
     	if(!adivino) {
-    		System.out.println("lo siento has perdido");
+    		System.out.println("lo siento has perdido, el numero secreto era el " +  secreto);
     	}
     }    
     
